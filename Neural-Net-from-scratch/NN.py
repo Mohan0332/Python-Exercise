@@ -19,6 +19,9 @@ class Activation_Softmax:
         normalised_values = exp_values/np.sum(exp_values,axis=1)
         self.output = normalised_values
 
+class Loss:
+    pass
+
 
 
     
