@@ -12,3 +12,5 @@ op_norm1 = op_exp1 / np.sum(op_exp1,axis=1,keepdims=True)
 op_exp2 = np.exp(op - np.max(op,axis=1,keepdims=True))
 op_norm2 = op_exp2/np.sum(op_exp2,axis=1,keepdims=True)
 print(op_norm2)
+
+# Next step is Loss definition
